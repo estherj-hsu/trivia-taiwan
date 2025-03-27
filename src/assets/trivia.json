@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "text": "Taiwan has one of the highest densities of mountains in the world.",
+    "category": "Geography & Nature",
+    "icon": "⛰️"
+  },
+  {
+    "id": 2,
+    "text": "Bubble tea was invented in Taiwan in the 1980s, but two tea shops both claim to be the original creator.",
+    "category": "Food",
+    "icon": "🧋"
+  },
+  {
+    "id": 3,
+    "text": "Pineapple cakes were originally made with winter melon. Pineapple was added later to symbolize prosperity.",
+    "category": "Food",
+    "icon": "🍍"
+  }
+]
