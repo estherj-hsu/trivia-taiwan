@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "text": "Taiwan has one of the highest densities of mountains in the world.",
+    "category": "Geography & Nature",
+    "icon": "🏞️"
+  },
+  {
+    "id": 2,
+    "text": "The Tropic of Cancer runs right through Taiwan.",
+    "category": "Geography & Nature",
+    "icon": "🏞️"
+  },
+  {
+    "id": 3,
+    "text": "Taroko Gorge is one of the world’s deepest marble canyons.",
+    "category": "Geography & Nature",
+    "icon": "🏞️"
+  },
+  {
+    "id": 4,
+    "text": "Taiwan is the birthplace of bubble tea (invented in Taichung in the 1980s).",
+    "category": "Food",
+    "icon": "🍜"
+  },
+  {
+    "id": 5,
+    "text": "The world’s largest night market is in Taiwan (Fengjia Night Market).",
+    "category": "Food",
+    "icon": "🍜"
+  },
+  {
+    "id": 6,
+    "text": "Pineapple cakes were originally made with winter melon, not pineapple. Pineapple was added later to symbolize prosperity, as the word for pineapple (“旺來” ong-lai) sounds like “prosperity comes” in Taiwanese.",
+    "category": "Food",
+    "icon": "🍜"
+  },
+  {
+    "id": 7,
+    "text": "Bubble tea was invented in Taiwan in the 1980s, but no one agrees on who made it first—two different tea shops in Taichung both claim to be the original creator.",
+    "category": "Food",
+    "icon": "🍜"
+  },
+  {
+    "id": 8,
+    "text": "Taiwanese people celebrate Ghost Month in the 7th lunar month.",
+    "category": "Culture & Traditions",
+    "icon": "🎎"
+  },
+  {
+    "id": 9,
+    "text": "Betel nut chewing is a cultural phenomenon in some regions.",
+    "category": "Culture & Traditions",
+    "icon": "🎎"
+  },
+  {
+    "id": 10,
+    "text": "Taiwan has one of the highest densities of temples in the world.",
+    "category": "Culture & Traditions",
+    "icon": "🎎"
+  },
+  {
+    "id": 11,
+    "text": "Taiwan was under Japanese rule for 50 years (1895–1945).",
+    "category": "History & Politics",
+    "icon": "🏛️"
+  },
+  {
+    "id": 12,
+    "text": "It was the first country in Asia to legalize same-sex marriage (2019).",
+    "category": "History & Politics",
+    "icon": "🏛️"
+  },
+  {
+    "id": 13,
+    "text": "Taiwan is home to TSMC, the world’s top chip manufacturer.",
+    "category": "Tech & Innovation",
+    "icon": "💡"
+  },
+  {
+    "id": 14,
+    "text": "The first modern high-speed rail system in Asia (after Japan) was launched in Taiwan.",
+    "category": "Tech & Innovation",
+    "icon": "💡"
+  },
+  {
+    "id": 15,
+    "text": "7-Eleven stores in Taiwan offer bill payment, delivery, even dry cleaning.",
+    "category": "Fun & Random",
+    "icon": "🎮"
+  },
+  {
+    "id": 16,
+    "text": "Taiwan has a Hello Kitty-themed airplane and airport terminal.",
+    "category": "Fun & Random",
+    "icon": "🎮"
+  }
+]
