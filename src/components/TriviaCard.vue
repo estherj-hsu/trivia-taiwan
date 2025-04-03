@@ -47,8 +47,12 @@ function selectCategory(cat: string) {
 }
 
 function shuffleCurrentCategory() {
-  const filteredLength = filteredTrivia.value.length
-  currentIndex.value = getRandomIndex(filteredLength)
+  const fullList = data.value
+  const randomItem = fullList[getRandomIndex(fullList.length)]
+
+  selectedCategory.value = randomItem.category
+  const matching = data.value.filter((item) => item.category === randomItem.category)
+  currentIndex.value = matching.findIndex((item) => item.id === randomItem.id)
   userReaction.value = null
 }
 
