@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "text": "Taiwan is home to TSMC, the world's top chip manufacturer, producing over 50% of the world's semiconductors and 90% of advanced chips.",
+    "text": "Taiwan is home to TSMC, the world's leading chip manufacturer, producing over 50% of the world's semiconductors and 90% of advanced chips.",
     "category": "Technology",
     "icon": "💻"
   },
   {
     "id": 2,
     "text": "Fengjia Night Market in Taichung is one of Taiwan's largest night markets, attracting thousands of visitors daily with its diverse food options.",
-    "category": "Food & Culture",
+    "category": "Culture",
     "icon": "🌙"
   },
   {
     "id": 3,
-    "text": "Taiwan has over 100 peaks above 3,000 meters, including Yushan (Jade Mountain) which is the highest peak in Northeast Asia at 3,952 meters.",
+    "text": "Taiwan has over 100 peaks above 3,000 meters, including Yushan (Jade Mountain), which is the highest peak in Northeast Asia at 3,952 meters.",
     "category": "Nature",
     "icon": "⛰️"
   },
@@ -26,13 +26,13 @@
   {
     "id": 5,
     "text": "Bubble tea was invented in Taiwan in the 1980s, with Chun Shui Tang in Taichung being one of the first shops to popularize the drink.",
-    "category": "Food & Culture",
+    "category": "Culture",
     "icon": "🧋"
   },
   {
     "id": 6,
     "text": "EVA Air, Taiwan's major airline, has operated Hello Kitty-themed aircraft and airport lounges, showcasing Taiwan's embrace of kawaii culture.",
-    "category": "Food & Culture",
+    "category": "Culture",
     "icon": "✈️"
   },
   {
@@ -43,8 +43,8 @@
   },
   {
     "id": 8,
-    "text": "Taiwanese people celebrate Ghost Month in the 7th lunar month, with various rituals and offerings to honor ancestors.",
-    "category": "Food & Culture",
+    "text": "During Ghost Month (the seventh lunar month), Taiwanese people perform various rituals and make offerings to honor their ancestors.",
+    "category": "Culture",
     "icon": "👻"
   },
   {
@@ -55,8 +55,8 @@
   },
   {
     "id": 10,
-    "text": "7-Eleven stores in Taiwan offer various services including bill payments, package delivery, and ticket purchases, making them essential to daily life.",
-    "category": "Food & Culture",
+    "text": "7-Eleven stores in Taiwan offer various services, including bill payments, package delivery, and ticket purchases, making them essential to daily life.",
+    "category": "Culture",
     "icon": "🏪"
   },
   {
@@ -67,8 +67,8 @@
   },
   {
     "id": 12,
-    "text": "Pineapple cakes are a popular Taiwanese pastry, with the word for pineapple (旺來 ong-lai) symbolizing prosperity in Taiwanese culture.",
-    "category": "Food & Culture",
+    "text": "Pineapple cakes are a beloved Taiwanese pastry, originally made with winter melon. The word for pineapple (旺來 ong-lai) sounds like “prosperity comes”.",
+    "category": "Culture",
     "icon": "🍍"
   },
   {
@@ -79,38 +79,38 @@
   },
   {
     "id": 14,
-    "text": "Taiwan has thousands of temples, with many dedicated to various deities and serving as important community centers.",
-    "category": "Food & Culture",
+    "text": "Taiwan has thousands of temples, many dedicated to various deities and serving as important community centers.",
+    "category": "Culture",
     "icon": "🏮"
   },
   {
     "id": 15,
     "text": "Betel nut chewing is a cultural phenomenon in some regions, with distinctive 'betel nut beauties' selling the nuts at roadside stands.",
-    "category": "Food & Culture",
+    "category": "Culture",
     "icon": "🌰"
   },
   {
     "id": 16,
-    "text": "Taiwan's National Palace Museum houses one of the world's largest collections of Chinese artifacts, with hundreds of thousands of items.",
+    "text": "Taiwan's National Palace Museum houses one of the world's largest collections of Chinese artifacts.",
     "category": "History",
     "icon": "🏛️"
   },
   {
     "id": 17,
-    "text": "Taiwan is a major producer of computer components, including motherboards, making it a crucial player in global tech manufacturing.",
+    "text": "Taiwan is a major producer of computer components, including motherboards.",
     "category": "Technology",
     "icon": "🔧"
   },
   {
     "id": 18,
-    "text": "Taiwan has numerous hot springs, particularly in areas like Beitou and Wulai, making it a popular destination for hot spring tourism.",
+    "text": "Taiwan has numerous hot springs, especially in Beitou and Wulai, making it a popular destination for hot spring tourism.",
     "category": "Nature",
     "icon": "♨️"
   },
   {
     "id": 19,
-    "text": "Taiwan's convenience stores offer various services including ticket purchases and package delivery, making them essential to daily life.",
-    "category": "Food & Culture",
+    "text": "Taiwan's convenience stores offer ticket purchases and package delivery, making them essential to daily life.",
+    "category": "Culture",
     "icon": "🎫"
   },
   {
@@ -121,44 +121,86 @@
   },
   {
     "id": 21,
-    "text": "The Dutch established their first settlement in Taiwan in 1624, building Fort Zeelandia in Tainan, which became their colonial headquarters.",
+    "text": "The Dutch established their first settlement in Taiwan in 1624, building Fort Zeelandia in Tainan.",
     "category": "History",
     "icon": "🇳🇱"
   },
   {
     "id": 22,
-    "text": "The Spanish briefly colonized northern Taiwan from 1626 to 1642, establishing Fort San Salvador in present-day Keelung.",
+    "text": "The Spanish briefly colonized northern Taiwan from 1626 to 1642, establishing Fort San Salvador in Keelung.",
     "category": "History",
     "icon": "🇪🇸"
   },
   {
     "id": 23,
-    "text": "The Dutch introduced Christianity to Taiwan in the 17th century, establishing Protestant churches and introducing new agricultural techniques.",
+    "text": "The Dutch introduced Christianity to Taiwan in the 17th century, building Protestant churches and introducing new farming methods.",
     "category": "History",
     "icon": "⛪"
   },
   {
     "id": 24,
-    "text": "Taiwan's indigenous peoples speak Austronesian languages, making them linguistically related to people from Hawaii, New Zealand, and the Philippines.",
+    "text": "The Indigenous Peoples of Taiwan speak Austronesian languages, related to those in Hawaii, New Zealand, and the Philippines.",
     "category": "History",
     "icon": "🗣️"
   },
   {
     "id": 25,
-    "text": "The Amis tribe's harvest festival (Ilisin) is one of Taiwan's most important indigenous celebrations, featuring traditional singing and dancing.",
-    "category": "Food & Culture",
+    "text": "The Amis tribe's harvest festival (Ilisin) is one of Taiwan's most important indigenous celebrations.",
+    "category": "Culture",
     "icon": "🎭"
   },
   {
     "id": 26,
-    "text": "The Bunun people are known for their unique 'eight-part harmony' singing style, which is recognized as an important cultural heritage.",
-    "category": "Food & Culture",
+    "text": "The Bunun people are known for their unique 'eight-part harmony' singing style, recognized as an important cultural heritage.",
+    "category": "Culture",
     "icon": "🎵"
   },
   {
     "id": 27,
-    "text": "During Ghost Month, Taiwanese people avoid swimming, whistling at night, and hanging clothes outside after dark, believing these actions might attract spirits.",
-    "category": "Food & Culture",
+    "text": "During Ghost Month, Taiwanese people avoid swimming, whistling at night, and hanging clothes outside after dark.",
+    "category": "Culture",
     "icon": "👻"
+  },
+  {
+    "id": 28,
+    "text": "Taiwan's Spring Scream Festival, held annually in Kenting, is one of the country's oldest and most famous music festivals.",
+    "category": "Culture",
+    "icon": "🎶"
+  },
+  {
+    "id": 29,
+    "text": "The Golden Horse Awards, established in 1962, are among the most prestigious Chinese-language film awards.",
+    "category": "Culture",
+    "icon": "🏆"
+  },
+  {
+    "id": 30,
+    "text": "Taipei 101 features a 660-ton tuned mass damper that helps it withstand typhoons and earthquakes.",
+    "category": "Technology",
+    "icon": "🏙️"
+  },
+  {
+    "id": 31,
+    "text": "In Chinese culture, the number 4 is considered unlucky because it sounds similar to the word for 'death'.",
+    "category": "Culture",
+    "icon": "🔢"
+  },
+  {
+    "id": 32,
+    "text": "Taiwan has one of the highest densities of convenience stores in the world, with one store per 1,703 people.",
+    "category": "Culture",
+    "icon": "🏪"
+  },
+  {
+    "id": 33,
+    "text": "Taiwan's garbage trucks play classical music to alert residents to bring out their trash.",
+    "category": "Culture",
+    "icon": "🚛"
+  },
+  {
+    "id": 34,
+    "text": "Xiaoliuqiu (小琉球) is one of the few places in the world where you can snorkel with sea turtles year-round. The island has a high population of green sea turtles, and they often swim just a few meters from the shore!",
+    "category": "Nature",
+    "icon": "🐢"
   }
 ]

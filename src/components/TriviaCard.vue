@@ -45,7 +45,7 @@ function shuffleCurrentCategory() {
 
 <template>
   <div class="container">
-    <h1>Travia Taiwan</h1>
+    <h1>Trivia Taiwan</h1>
 
     <div class="trivia-card" :data-id="currentTrivia.id">
       <div class="icon">{{ currentTrivia.icon }}</div>
