@@ -1,98 +1,164 @@
 [
   {
     "id": 1,
-    "text": "Taiwan has one of the highest densities of mountains in the world.",
-    "category": "Geography & Nature",
-    "icon": "🏞️"
+    "text": "Taiwan is home to TSMC, the world's top chip manufacturer, producing over 50% of the world's semiconductors and 90% of advanced chips.",
+    "category": "Technology",
+    "icon": "💻"
   },
   {
     "id": 2,
-    "text": "The Tropic of Cancer runs right through Taiwan.",
-    "category": "Geography & Nature",
-    "icon": "🏞️"
+    "text": "Fengjia Night Market in Taichung is one of Taiwan's largest night markets, attracting thousands of visitors daily with its diverse food options.",
+    "category": "Food & Culture",
+    "icon": "🌙"
   },
   {
     "id": 3,
-    "text": "Taroko Gorge is one of the world’s deepest marble canyons.",
-    "category": "Geography & Nature",
-    "icon": "🏞️"
+    "text": "Taiwan has over 100 peaks above 3,000 meters, including Yushan (Jade Mountain) which is the highest peak in Northeast Asia at 3,952 meters.",
+    "category": "Nature",
+    "icon": "⛰️"
   },
   {
     "id": 4,
-    "text": "Taiwan is the birthplace of bubble tea (invented in Taichung in the 1980s).",
-    "category": "Food",
-    "icon": "🍜"
+    "text": "Taiwan was the first country in Asia to legalize same-sex marriage (2019), marking a historic moment for LGBTQ+ rights.",
+    "category": "History",
+    "icon": "🏳️‍🌈"
   },
   {
     "id": 5,
-    "text": "The world’s largest night market is in Taiwan (Fengjia Night Market).",
-    "category": "Food",
-    "icon": "🍜"
+    "text": "Bubble tea was invented in Taiwan in the 1980s, with Chun Shui Tang in Taichung being one of the first shops to popularize the drink.",
+    "category": "Food & Culture",
+    "icon": "🧋"
   },
   {
     "id": 6,
-    "text": "Pineapple cakes were originally made with winter melon, not pineapple. Pineapple was added later to symbolize prosperity, as the word for pineapple (“旺來” ong-lai) sounds like “prosperity comes” in Taiwanese.",
-    "category": "Food",
-    "icon": "🍜"
+    "text": "EVA Air, Taiwan's major airline, has operated Hello Kitty-themed aircraft and airport lounges, showcasing Taiwan's embrace of kawaii culture.",
+    "category": "Food & Culture",
+    "icon": "✈️"
   },
   {
     "id": 7,
-    "text": "Bubble tea was invented in Taiwan in the 1980s, but no one agrees on who made it first—two different tea shops in Taichung both claim to be the original creator.",
-    "category": "Food",
-    "icon": "🍜"
+    "text": "The Tropic of Cancer runs through Taiwan, giving it a unique climate that supports both tropical and temperate species.",
+    "category": "Nature",
+    "icon": "🌍"
   },
   {
     "id": 8,
-    "text": "Taiwanese people celebrate Ghost Month in the 7th lunar month.",
-    "category": "Culture & Traditions",
-    "icon": "🎎"
+    "text": "Taiwanese people celebrate Ghost Month in the 7th lunar month, with various rituals and offerings to honor ancestors.",
+    "category": "Food & Culture",
+    "icon": "👻"
   },
   {
     "id": 9,
-    "text": "Betel nut chewing is a cultural phenomenon in some regions.",
-    "category": "Culture & Traditions",
-    "icon": "🎎"
+    "text": "Taroko Gorge is a spectacular marble canyon in Taiwan, featuring stunning cliffs, waterfalls, and the famous Eternal Spring Shrine.",
+    "category": "Nature",
+    "icon": "🏔️"
   },
   {
     "id": 10,
-    "text": "Taiwan has one of the highest densities of temples in the world.",
-    "category": "Culture & Traditions",
-    "icon": "🎎"
+    "text": "7-Eleven stores in Taiwan offer various services including bill payments, package delivery, and ticket purchases, making them essential to daily life.",
+    "category": "Food & Culture",
+    "icon": "🏪"
   },
   {
     "id": 11,
-    "text": "Taiwan was under Japanese rule for 50 years (1895–1945).",
-    "category": "History & Politics",
-    "icon": "🏛️"
+    "text": "Taiwan was under Japanese rule for 50 years (1895–1945), leaving lasting cultural influences in architecture and cuisine.",
+    "category": "History",
+    "icon": "🇯🇵"
   },
   {
     "id": 12,
-    "text": "It was the first country in Asia to legalize same-sex marriage (2019).",
-    "category": "History & Politics",
-    "icon": "🏛️"
+    "text": "Pineapple cakes are a popular Taiwanese pastry, with the word for pineapple (旺來 ong-lai) symbolizing prosperity in Taiwanese culture.",
+    "category": "Food & Culture",
+    "icon": "🍍"
   },
   {
     "id": 13,
-    "text": "Taiwan is home to TSMC, the world’s top chip manufacturer.",
-    "category": "Tech & Innovation",
-    "icon": "💡"
+    "text": "Taiwan's High Speed Rail system connects major cities at speeds up to 300 km/h, making it one of Asia's most efficient transportation networks.",
+    "category": "Technology",
+    "icon": "🚄"
   },
   {
     "id": 14,
-    "text": "The first modern high-speed rail system in Asia (after Japan) was launched in Taiwan.",
-    "category": "Tech & Innovation",
-    "icon": "💡"
+    "text": "Taiwan has thousands of temples, with many dedicated to various deities and serving as important community centers.",
+    "category": "Food & Culture",
+    "icon": "🏮"
   },
   {
     "id": 15,
-    "text": "7-Eleven stores in Taiwan offer bill payment, delivery, even dry cleaning.",
-    "category": "Fun & Random",
-    "icon": "🎮"
+    "text": "Betel nut chewing is a cultural phenomenon in some regions, with distinctive 'betel nut beauties' selling the nuts at roadside stands.",
+    "category": "Food & Culture",
+    "icon": "🌰"
   },
   {
     "id": 16,
-    "text": "Taiwan has a Hello Kitty-themed airplane and airport terminal.",
-    "category": "Fun & Random",
-    "icon": "🎮"
+    "text": "Taiwan's National Palace Museum houses one of the world's largest collections of Chinese artifacts, with hundreds of thousands of items.",
+    "category": "History",
+    "icon": "🏛️"
+  },
+  {
+    "id": 17,
+    "text": "Taiwan is a major producer of computer components, including motherboards, making it a crucial player in global tech manufacturing.",
+    "category": "Technology",
+    "icon": "🔧"
+  },
+  {
+    "id": 18,
+    "text": "Taiwan has numerous hot springs, particularly in areas like Beitou and Wulai, making it a popular destination for hot spring tourism.",
+    "category": "Nature",
+    "icon": "♨️"
+  },
+  {
+    "id": 19,
+    "text": "Taiwan's convenience stores offer various services including ticket purchases and package delivery, making them essential to daily life.",
+    "category": "Food & Culture",
+    "icon": "🎫"
+  },
+  {
+    "id": 20,
+    "text": "The Formosan black bear is Taiwan's largest land animal and a symbol of the island's unique wildlife.",
+    "category": "Nature",
+    "icon": "🐻"
+  },
+  {
+    "id": 21,
+    "text": "The Dutch established their first settlement in Taiwan in 1624, building Fort Zeelandia in Tainan, which became their colonial headquarters.",
+    "category": "History",
+    "icon": "🇳🇱"
+  },
+  {
+    "id": 22,
+    "text": "The Spanish briefly colonized northern Taiwan from 1626 to 1642, establishing Fort San Salvador in present-day Keelung.",
+    "category": "History",
+    "icon": "🇪🇸"
+  },
+  {
+    "id": 23,
+    "text": "The Dutch introduced Christianity to Taiwan in the 17th century, establishing Protestant churches and introducing new agricultural techniques.",
+    "category": "History",
+    "icon": "⛪"
+  },
+  {
+    "id": 24,
+    "text": "Taiwan's indigenous peoples speak Austronesian languages, making them linguistically related to people from Hawaii, New Zealand, and the Philippines.",
+    "category": "History",
+    "icon": "🗣️"
+  },
+  {
+    "id": 25,
+    "text": "The Amis tribe's harvest festival (Ilisin) is one of Taiwan's most important indigenous celebrations, featuring traditional singing and dancing.",
+    "category": "Food & Culture",
+    "icon": "🎭"
+  },
+  {
+    "id": 26,
+    "text": "The Bunun people are known for their unique 'eight-part harmony' singing style, which is recognized as an important cultural heritage.",
+    "category": "Food & Culture",
+    "icon": "🎵"
+  },
+  {
+    "id": 27,
+    "text": "During Ghost Month, Taiwanese people avoid swimming, whistling at night, and hanging clothes outside after dark, believing these actions might attract spirits.",
+    "category": "Food & Culture",
+    "icon": "👻"
   }
 ]
