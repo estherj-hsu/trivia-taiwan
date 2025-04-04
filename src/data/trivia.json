@@ -4,84 +4,112 @@
     "text": "Taiwan is home to TSMC, the world's leading chip manufacturer, producing over 50% of the world's semiconductors and 90% of advanced chips.",
     "category": "Tech",
     "icon": "💻",
-    "source": ["https://www.reuters.com/technology/chipmaker-tsmc-posts-23-q1-profit-drop-2023-04-20/"]
+    "source": [
+      "https://www.statista.com/statistics/867223/worldwide-semiconductor-foundries-by-market-share/",
+      "https://www.wired.com/story/taiwan-makes-the-majority-of-the-worlds-computer-chips-now-its-running-out-of-electricity/?utm_source=chatgpt.com"
+    ]
   },
   {
     "id": 2,
     "text": "Fengjia Night Market in Taichung is one of Taiwan's largest night markets, attracting thousands of visitors daily with its diverse food options.",
     "category": "Culture",
     "icon": "🌙",
-    "source": ["https://www.travel.taipei/en/attraction/details/564"]
+    "source": ["https://en.wikipedia.org/wiki/Fengjia_Night_Market"]
   },
   {
     "id": 3,
     "text": "Taiwan has over 100 peaks above 3,000 meters, including Yushan (Jade Mountain), which is the highest peak in Northeast Asia at 3,952 meters.",
     "category": "Nature",
     "icon": "⛰️",
-    "source": ["https://www.eastasiaforum.org/2019/10/24/mountain-tourism-and-preservation-in-taiwan/"]
+    "source": [
+      "https://en.wikipedia.org/wiki/List_of_mountains_in_Taiwan",
+      "https://www.taiwanhikes.com/blog-posts/100-peaks-jade-mountain.html"
+    ]
   },
   {
     "id": 4,
     "text": "Taiwan was the first country in Asia to legalize same-sex marriage (2019), marking a historic moment for LGBTQ+ rights.",
     "category": "History",
     "icon": "🏳️‍🌈",
-    "source": ["https://www.bbc.com/news/world-asia-48327161"]
+    "source": [
+      "https://www.amnesty.org/en/latest/press-release/2019/05/taiwan-same-sex-marriage-law/",
+      "https://www.forbes.com/sites/bonniechiu/2019/05/22/why-taiwan-became-first-in-asia-to-legalize-same-sex-marriage/"
+    ]
   },
   {
     "id": 5,
     "text": "Bubble tea was invented in Taiwan in the 1980s, with Chun Shui Tang in Taichung being one of the first shops to popularize the drink.",
     "category": "Culture",
     "icon": "🧋",
-    "source": ["https://www.bbc.com/travel/article/20211114-the-origin-of-bubble-tea"]
+    "source": [
+      "https://www.1992sharetea.com/news/bubble-tea-history",
+      "https://www.nationalgeographic.com/travel/article/what-is-boba-bubble-tea-taiwan",
+      "https://en.wikipedia.org/wiki/Bubble_tea"
+    ]
   },
   {
     "id": 6,
     "text": "EVA Air, Taiwan's major airline, has operated Hello Kitty-themed aircraft and airport lounges, showcasing Taiwan's embrace of kawaii culture.",
     "category": "Culture",
     "icon": "✈️",
-    "source": ["https://edition.cnn.com/travel/article/hello-kitty-eva-air/index.html"]
+    "source": ["https://www.evaair.com/en-global/fly-prepare/flying-with-eva/hello-kitty-jet/"]
   },
   {
     "id": 7,
     "text": "The Tropic of Cancer runs through Taiwan, giving it a unique climate that supports both tropical and temperate species.",
     "category": "Nature",
     "icon": "🌍",
-    "source": ["https://www.cwb.gov.tw/V8/C/K/Encyclopedia/volcano_e.html"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Flora_of_Taiwan",
+      "https://www.researchgate.net/figure/Populations-and-geographic-and-climate-features-of-Taiwan-The-Tropic-of-Cancer_fig1_355710643"
+    ]
   },
   {
     "id": 8,
     "text": "During Ghost Month (the seventh lunar month), Taiwanese people perform various rituals and make offerings to honor their ancestors.",
     "category": "Culture",
     "icon": "👻",
-    "source": ["https://international.thenewslens.com/article/113502"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Ghost_Festival",
+      "https://taiwaninsight.org/2023/08/28/its-time-for-the-ghost-month/"
+    ]
   },
   {
     "id": 9,
     "text": "Taroko Gorge is a spectacular marble canyon in Taiwan, featuring stunning cliffs, waterfalls, and the famous Eternal Spring Shrine.",
     "category": "Nature",
     "icon": "🏔️",
-    "source": ["https://www.taroko.gov.tw/en"]
+    "source": ["https://www.rtaiwanr.com/hualien/taroko-gorge"]
   },
   {
     "id": 10,
     "text": "7-Eleven stores in Taiwan offer various services, including bill payments, package delivery, and ticket purchases, making them essential to daily life.",
     "category": "Culture",
     "icon": "🏪",
-    "source": ["https://taiwantoday.tw/news.php?unit=10&post=205105"]
+    "source": [
+      "https://taiwaninsight.org/2022/04/12/at-the-consumers-convenience-what-the-convenience-store-in-taiwan-offers/"
+    ]
   },
   {
     "id": 11,
     "text": "Taiwan was under Japanese rule for 50 years (1895–1945), leaving lasting cultural influences in architecture and cuisine.",
     "category": "History",
     "icon": "🇯🇵",
-    "source": ["https://www.britannica.com/place/Taiwan/History"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Taiwan_under_Japanese_rule",
+      "https://en.wikipedia.org/wiki/Imperial_Crown_Style"
+    ]
   },
   {
     "id": 12,
     "text": "Pineapple cakes are a beloved Taiwanese pastry, originally made with winter melon. The word for pineapple (旺來 ong-lai) sounds like “prosperity comes”.",
     "category": "Culture",
     "icon": "🍍",
-    "source": ["https://guide.taiwan.net.tw/en/food"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Pineapple_cake",
+      "https://www.vice.com/en/article/sunnyhills-pineapple-cake/",
+      "https://youtu.be/VrtjlJrdHKY"
+    ]
   },
   {
     "id": 13,
@@ -95,59 +123,71 @@
     "text": "Taiwan has thousands of temples, many dedicated to various deities and serving as important community centers.",
     "category": "Culture",
     "icon": "🏮",
-    "source": ["https://english.moe.gov.tw/cp-14-17903-0f5dc-1.html"]
+    "source": ["https://www.likeitformosa.com/single-post/get-to-know-the-local-religions-in-taiwan"]
   },
   {
     "id": 15,
     "text": "Betel nut chewing is a cultural phenomenon in some regions, with distinctive 'betel nut beauties' selling the nuts at roadside stands.",
     "category": "Culture",
     "icon": "🌰",
-    "source": [
-      "https://international.thenewslens.com/article/106750",
-      "https://topics.amcham.com.tw/2020/07/betel-nuts-in-taiwan/"
-    ]
+    "source": ["https://youtu.be/c46Mgjw093I?feature=shared", "https://en.wikipedia.org/wiki/Areca_nut"]
   },
   {
     "id": 16,
     "text": "Taiwan's National Palace Museum houses one of the world's largest collections of Chinese artifacts.",
     "category": "History",
     "icon": "🏛️",
-    "source": ["https://www.npm.gov.tw/en/Article.aspx?sNo=03000070"]
+    "source": [
+      "https://en.wikipedia.org/wiki/National_Palace_Museum",
+      "https://www.britannica.com/topic/National-Palace-Museum"
+    ]
   },
   {
     "id": 17,
     "text": "Taiwan is a major producer of computer components, including motherboards.",
     "category": "Tech",
     "icon": "🔧",
-    "source": ["https://www.moea.gov.tw/MNS/english/news/News.aspx?kind=6&menu_id=176&news_id=102123"]
+    "source": [
+      "https://www.marketdataforecast.com/market-reports/motherboard-market",
+      "https://vocus.cc/article/6616d420fd897800014a917b"
+    ]
   },
   {
     "id": 18,
     "text": "Taiwan has numerous hot springs, especially in Beitou and Wulai, making it a popular destination for hot spring tourism.",
     "category": "Nature",
     "icon": "♨️",
-    "source": ["https://www.travel.taipei/en/attraction/details/524"]
+    "source": ["https://www.klook.com/en-US/destination/p50338164-wulai-hot-springs/"]
   },
   {
     "id": 19,
-    "text": "Taiwan's convenience stores offer ticket purchases and package delivery, making them essential to daily life.",
+    "text": "Taiwan has one of the highest densities of convenience stores in the world — with over 10,000 stores nationwide, there's almost one on every corner.",
     "category": "Culture",
     "icon": "🎫",
-    "source": ["https://www.taiwannews.com.tw/en/news/4337436"]
+    "source": [
+      "https://focustaiwan.tw/business/202403180011",
+      "https://www.taipeitimes.com/News/taiwan/archives/2024/03/19/2003815156"
+    ]
   },
   {
     "id": 20,
     "text": "The Formosan black bear is Taiwan's largest land animal and a symbol of the island's unique wildlife.",
     "category": "Nature",
     "icon": "🐻",
-    "source": ["https://www.taiwannews.com.tw/en/news/3541509"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Formosan_black_bear",
+      "https://animalia.bio/formosan-black-bear?property=77"
+    ]
   },
   {
     "id": 21,
     "text": "The Dutch established their first settlement in Taiwan in 1624, building Fort Zeelandia in Tainan.",
     "category": "History",
     "icon": "🇳🇱",
-    "source": ["https://www.taiwan.gov.tw/content_5.php"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Fort_Zeelandia_%28Taiwan%29?",
+      "https://en.wikipedia.org/wiki/Dutch_Formosa"
+    ]
   },
   {
     "id": 22,
@@ -161,84 +201,111 @@
     "text": "The Dutch introduced Christianity to Taiwan in the 17th century, building Protestant churches and introducing new farming methods.",
     "category": "History",
     "icon": "⛪",
-    "source": ["https://taiwantoday.tw/news.php?unit=10&post=195891"]
+    "source": [
+      "https://www.taipeitimes.com/News/feat/archives/2017/12/04/2003683390",
+      "https://en.wikipedia.org/wiki/Dutch_Formosa"
+    ]
   },
   {
     "id": 24,
     "text": "The Indigenous Peoples of Taiwan speak Austronesian languages, related to those in Hawaii, New Zealand, and the Philippines.",
     "category": "History",
     "icon": "🗣️",
-    "source": ["https://www.culture.tw/index.php?option=com_content&task=view&id=1267"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Austronesian_languages",
+      "https://en.wikipedia.org/wiki/Austronesian_peoples"
+    ]
   },
   {
     "id": 25,
     "text": "The Amis tribe's harvest festival (Ilisin) is one of Taiwan's most important indigenous celebrations.",
     "category": "Culture",
     "icon": "🎭",
-    "source": ["https://www.cip.gov.tw/en/news/data-list/64DF71802A6C8B25"]
+    "source": [
+      "https://taiwangods.moi.gov.tw/html/landscape_en/1_0011.aspx?i=94",
+      "https://en.wikipedia.org/wiki/Amis_harvest_festivals"
+    ]
   },
   {
     "id": 26,
     "text": "The Bunun people are known for their unique 'eight-part harmony' singing style, recognized as an important cultural heritage.",
     "category": "Culture",
     "icon": "🎵",
-    "source": ["https://www.indigenousvoice.com.tw/eng/news_detail/100.htm"]
+    "source": [
+      "https://ibmusictc.wordpress.com/introduction-to-the-bunun-pasibutbut/",
+      "https://worldmusiccentral.org/2004/06/01/david-darling-records-with-the-wulu-bunun/"
+    ]
   },
   {
     "id": 27,
     "text": "During Ghost Month, Taiwanese people avoid swimming, whistling at night, and hanging clothes outside after dark.",
     "category": "Culture",
     "icon": "👻",
-    "source": ["https://taiwantoday.tw/news.php?unit=10&post=200660"]
+    "source": [
+      "https://www.dimsumwarriors.com/blog/hungry-ghost-taiwan/",
+      "https://communitycenter.org.tw/ghost-month-2023-a-guide-to-hungry-ghost-month-in-taiwan/"
+    ]
   },
   {
     "id": 28,
     "text": "Taiwan's Spring Scream Festival, held annually in Kenting, is one of the country's oldest and most famous music festivals.",
     "category": "Culture",
     "icon": "🎶",
-    "source": ["https://english.taiwan.net.tw/m1.aspx?sNo=0002019&id=A12-00006"]
+    "source": [
+      "https://en.wikipedia.org/wiki/Spring_Scream",
+      "https://www.thechairmansbao.com/blog/are-you-ready-for-spring-scream/"
+    ]
   },
   {
     "id": 29,
     "text": "The Golden Horse Awards, established in 1962, are among the most prestigious Chinese-language film awards.",
     "category": "Culture",
     "icon": "🏆",
-    "source": ["https://www.goldenhorse.org.tw/"]
+    "source": ["https://en.wikipedia.org/wiki/Golden_Horse_Film_Festival_and_Awards"]
   },
   {
     "id": 30,
     "text": "Taipei 101 features a 660-ton tuned mass damper that helps it withstand typhoons and earthquakes.",
     "category": "Tech",
     "icon": "🏙️",
-    "source": ["https://www.taipei-101.com.tw/en/about101.aspx"]
+    "source": [
+      "https://www.atlasobscura.com/places/tuned-mass-damper-of-taipei-101",
+      "https://global.ctbuh.org/resources/papers/download/1650-structural-design-of-taipei-101-the-worlds-tallest-building.pdf"
+    ]
   },
   {
     "id": 31,
     "text": "In Chinese culture, the number 4 is considered unlucky because it sounds similar to the word for 'death'.",
     "category": "Culture",
     "icon": "🔢",
-    "source": ["https://thetaiwantimes.com/unlucky-number-four-in-taiwan/"]
+    "source": ["https://www.chineselearning.com/chinese-culture/why-chinese-people-do-not-like-the-number-4"]
   },
   {
     "id": 32,
     "text": "Taiwan has one of the highest densities of convenience stores in the world, with one store per 1,703 people.",
     "category": "Culture",
     "icon": "🏪",
-    "source": ["https://international.thenewslens.com/article/148010"]
+    "source": ["https://www.taipeitimes.com/News/taiwan/archives/2024/03/19/2003815156"]
   },
   {
     "id": 33,
     "text": "Taiwan's garbage trucks play classical music — like Beethoven or Für Elise — to alert residents it's time to bring out the trash.",
     "category": "Culture",
     "icon": "🚛",
-    "source": ["https://edition.cnn.com/travel/article/taiwan-trash-music/index.html"]
+    "source": [
+      "https://www.moc.gov.tw/en/News_Content2.aspx?n=467&s=14287",
+      "https://youtu.be/8YOtFyaoqhE?feature=shared"
+    ]
   },
   {
     "id": 34,
     "text": "Xiaoliuqiu (小琉球) is one of the few places in the world where you can snorkel with sea turtles year-round. The island has a high population of green sea turtles, and they often swim just a few meters from the shore!",
     "category": "Nature",
     "icon": "🐢",
-    "source": ["https://www.lonelyplanet.com/articles/snorkelling-with-turtles-taiwan"]
+    "source": [
+      "https://taiwantravelblog.com/xiaoliuqiu-snorkeling-guide/",
+      "https://www.nickkembel.com/xiaoliuqiu-lambai-island-taiwan/"
+    ]
   },
   {
     "id": 35,
@@ -246,8 +313,8 @@
     "category": "Culture",
     "icon": "🍠",
     "source": [
-      "https://thewoksoflife.com/yam-leaves/",
-      "https://taikee.com/blogs/taikee-blog/what-are-sweet-potato-leaves"
+      "https://specialtyproduce.com/produce/Sweet_Potato_Leaves_11487.php",
+      "https://www.nutritionadvance.com/sweet-potato-leaves-nutrition/"
     ]
   },
   {
@@ -255,10 +322,7 @@
     "text": "Taiwan experiences over 1,000 earthquakes a year, most of them minor — but major quakes like the 921 Earthquake in 1999 have left a lasting impact.",
     "category": "Nature",
     "icon": "🌏",
-    "source": [
-      "https://scweb.cwa.gov.tw/en-us/guidance/faqdetail/190",
-      "https://www.earthtrekkers.com/ten-interesting-facts-about-taiwan/"
-    ]
+    "source": ["https://scweb.cwa.gov.tw/en-us/guidance/faqdetail/190", "https://www.cwa.gov.tw/V8/E/E/index.html"]
   },
   {
     "id": 37,
@@ -266,8 +330,8 @@
     "category": "Culture",
     "icon": "🛵",
     "source": [
-      "https://www.lejournalinternational.fr/Scooter-driving-in-Taiwan_a3424.html",
-      "https://en.rti.org.tw/news/view/id/2122244"
+      "https://www.taipeitimes.com/News/taiwan/archives/2016/04/06/2003643311",
+      "https://www.irenebrination.com/irenebrination_notes_on_a/2023/10/taipei-scooter-culture-helmets.html"
     ]
   },
   {
@@ -276,8 +340,8 @@
     "category": "Culture",
     "icon": "🐕",
     "source": [
-      "https://newtaipei.travel/en/attractions/detail/402847",
-      "https://www.taipeitimes.com/News/taiwan/archives/2006/11/07/2003335150"
+      "https://www.northguan-nsa.gov.tw/user/article.aspx?Lang=2&SNo=04002500",
+      "https://newtaipei.travel/en/attractions/detail/402847"
     ]
   },
   {
@@ -286,8 +350,8 @@
     "category": "Nature",
     "icon": "🌋",
     "source": [
-      "https://www.nstm.gov.tw/921earthquake/en/",
-      "https://www.lonelyplanet.com/taiwan/central-taiwan/nantou-county/attractions/921-earthquake-museum-of-taiwan/a/poi-sig/1459490/357743"
+      "https://en.wikipedia.org/wiki/Geography_of_Taiwan",
+      "https://taiwandatastories.com/taiwan-3000-meter-mountains/"
     ]
   },
   {
@@ -296,8 +360,9 @@
     "category": "Nature",
     "icon": "🏞️",
     "source": [
-      "https://taiwantoday.tw/news.php?unit=10&post=201745",
-      "https://www.lejournalinternational.fr/Scooter-driving-in-Taiwan_a3424.html"
+      "https://taiwandatastories.com/taiwan-3000-meter-mountains/",
+      "https://peakvisor.com/adm/taiwan.html",
+      "https://en.wikipedia.org/wiki/List_of_mountains_in_Taiwan"
     ]
   },
   {
@@ -316,8 +381,8 @@
     "category": "Culture",
     "icon": "🎇",
     "source": [
-      "https://www.volcanodiscovery.com/taiwan.html",
-      "https://www.cwb.gov.tw/V8/C/K/Encyclopedia/volcano_e.html"
+      "https://www.rtaiwanr.com/blog/yanshui-beehive-fireworks",
+      "https://www.twtainan.net/yanshuifireworks/en"
     ]
   },
   {
@@ -326,8 +391,8 @@
     "category": "Culture",
     "icon": "🥩",
     "source": [
-      "https://www.eastasiaforum.org/2019/10/24/mountain-tourism-and-preservation-in-taiwan/",
-      "https://taiwantoday.tw/news.php?unit=10&post=189265"
+      "https://eatyourroots.substack.com/p/tracing-the-roots-of-mongolian-bbq",
+      "https://kids.kiddle.co/Mongolian_barbecue"
     ]
   },
   {
@@ -336,8 +401,9 @@
     "category": "Culture",
     "icon": "🐱",
     "source": [
-      "https://www.nature.com/articles/d41586-017-08436-1",
-      "https://edition.cnn.com/2017/12/02/asia/taiwan-rainbow-world-record/index.html"
+      "https://www.guinnessworldrecords.com/world-records/463399-oldest-cat-cafe-still-in-existence",
+      "https://taiwanderers.com/cat-cafe-kitten-coffee-garden-taipei/",
+      "https://www.bbc.co.uk/programmes/w3ct4x7x"
     ]
   },
   {
@@ -345,10 +411,7 @@
     "text": "Taiwanese students have some of the longest school days in the world, averaging 9 to 10 hours per day.",
     "category": "Culture",
     "icon": "📚",
-    "source": [
-      "https://www.cnn.com/travel/article/yanshui-beehive-fireworks-taiwan/index.html",
-      "https://guidetotaipei.com/visit/yanshui-beehive-fireworks-festival"
-    ]
+    "source": ["https://www.taipeitimes.com/News/taiwan/archives/2025/02/10/2003831627"]
   },
   {
     "id": 46,
@@ -356,8 +419,9 @@
     "category": "History",
     "icon": "🗺️",
     "source": [
-      "https://www.taiwannews.com.tw/en/news/3898447",
-      "https://theculturetrip.com/asia/taiwan/articles/a-brief-history-of-mongolian-bbq/"
+      "https://bubbleteaisland.com/2023/05/10/when-was-taiwan-called-formosa/",
+      "https://theculturetrip.com/asia/taiwan/articles/taiwan-called-republic-formosa",
+      "https://islandfolklore.com/taiwan-names-formosa/"
     ]
   },
   {
@@ -366,8 +430,9 @@
     "category": "Culture",
     "icon": "♨️",
     "source": [
-      "https://www.lonelyplanet.com/articles/where-cat-cafes-began",
-      "https://www.catster.com/lifestyle/first-cat-cafe-history-taipei-taiwan"
+      "https://www.taiwan-panorama.com/en-us/Articles/Details?Guid=7c620f76-aa0f-4120-b498-41aa103c1bac&CatId=10&postname=A+Misty+Wonderland%3A-Beitou+and+Its+Hot+Springs",
+      "https://en.wikipedia.org/wiki/Hot_springs_in_Taiwan",
+      "https://english.culture.gov.taipei/cp.aspx?n=574A45D36551EF42"
     ]
   },
   {
@@ -376,8 +441,7 @@
     "category": "Culture",
     "icon": "🍱",
     "source": [
-      "https://www.taipeitimes.com/News/taiwan/archives/2018/10/25/2003703025",
-      "https://www.topuniversities.com/student-info/studying-abroad/studying-taiwan-education-overview"
+      "https://taiwaninsight.org/2025/03/10/tracks-of-influence-how-taiwans-railway-heritage-fuels-soft-power/"
     ]
   },
   {
@@ -386,8 +450,8 @@
     "category": "History",
     "icon": "🚉",
     "source": [
-      "https://www.lonelyplanet.com/taiwan/background/history/8e6fede7-b050-4e1e-8fc7-3c0ff02e6dc5/a/nar/8e6fede7-b050-4e1e-8fc7-3c0ff02e6dc5/360252",
-      "https://en.wikipedia.org/wiki/Ilha_Formosa"
+      "https://www.goteamjosh.com/blog/taiwaneki",
+      "https://taiwaninsight.org/2025/03/10/tracks-of-influence-how-taiwans-railway-heritage-fuels-soft-power/"
     ]
   },
   {
@@ -396,8 +460,7 @@
     "category": "History",
     "icon": "🚂",
     "source": [
-      "https://www.britannica.com/place/Taiwan/History",
-      "https://guidetotaipei.com/article/taiwan-under-japanese-rule-1895-1945"
+      "https://taiwaninsight.org/2025/03/10/tracks-of-influence-how-taiwans-railway-heritage-fuels-soft-power/"
     ]
   }
 ]
