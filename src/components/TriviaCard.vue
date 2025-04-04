@@ -15,6 +15,7 @@ interface TriviaItem {
   category: string;
   icon: string;
   reactionCounts?: ReactionCounts;
+  source?: string[];
 }
 
 const data = ref<TriviaItem[]>(triviaData);
@@ -115,10 +116,24 @@ onMounted(() => {
 
 <template>
   <div class="trivia-card" :data-id="currentTrivia.id">
-    <div class="trivia-card-icon">{{ currentTrivia.icon }}</div>
-    <p class="trivia-card-text">{{ currentTrivia.text }}</p>
-    <button class="trivia-card-shuffle-btn" @click="shuffleCurrentCategory">
-      <i class="ph ph-shuffle"></i>
+    <div class="trivia-card-icon" aria-hidden="true">{{ currentTrivia.icon }}</div>
+    <div class="trivia-card-text" id="trivia-text">
+      <p>
+        {{ currentTrivia.text }}
+        <template v-if="currentTrivia.source && currentTrivia.source.length">
+          <sup v-for="(link, index) in currentTrivia.source" :key="link">
+            <a :href="link" target="_blank" rel="noopener noreferrer">[{{ index + 1 }}]</a>
+          </sup>
+        </template>
+      </p>
+    </div>
+    <button
+      class="trivia-card-shuffle-btn"
+      @click="shuffleCurrentCategory"
+      aria-label="Shuffle trivia fact"
+      :aria-describedby="'trivia-text'"
+    >
+      <i class="ph ph-shuffle" aria-hidden="true"></i>
     </button>
     <div class="trivia-card-reactions">
       <button
@@ -127,14 +142,11 @@ onMounted(() => {
         :class="['reaction-btn', { active: userReaction === type }]"
         @click="react(type)"
         :disabled="userReaction !== null"
+        :aria-label="type === 'knew' ? 'I knew this' : type === 'didntKnow' ? 'I didn\'t know this' : 'Interesting!'"
       >
-        <span v-if="type === 'knew'"
-          >👍 I knew this! ({{ currentTrivia.reactionCounts?.knew ?? 0 }})</span
-        >
-        <span v-else-if="type === 'didntKnow'"
-          >🤯 Didn’t know ({{ currentTrivia.reactionCounts?.didntKnow ?? 0 }})</span
-        >
-        <span v-else>😍 Interesting! ({{ currentTrivia.reactionCounts?.interesting ?? 0 }})</span>
+        <span v-if="type === 'knew'"> 👍 Knew! ({{ currentTrivia.reactionCounts?.knew ?? 0 }}) </span>
+        <span v-else-if="type === 'didntKnow'"> 🤯 New! ({{ currentTrivia.reactionCounts?.didntKnow ?? 0 }}) </span>
+        <span v-else> 😍 Interesting! ({{ currentTrivia.reactionCounts?.interesting ?? 0 }}) </span>
       </button>
     </div>
   </div>
@@ -145,6 +157,7 @@ onMounted(() => {
       :key="cat"
       @click="selectCategory(cat)"
       :class="['category-btn', { selected: selectedCategory === cat }]"
+      :aria-pressed="selectedCategory === cat"
     >
       {{ cat }}
     </button>
@@ -153,6 +166,11 @@ onMounted(() => {
 
 <style scoped lang="sass">
 @import '../assets/sass/variables'
+
+button
+  &:focus-visible
+    outline: 2px solid $color-accent
+    outline-offset: 2px
 
 .trivia-card
   background-color: white
@@ -168,11 +186,10 @@ onMounted(() => {
   justify-content: space-between
   gap: 1rem
   position: relative
-  min-height: 360px
-
+  min-height: 370px
   @media (min-width: 768px)
     padding: 1.5rem 4rem
-    min-height: 320px
+    min-height: 326px
 
   &::before
     content: "#" attr(data-id)
@@ -183,7 +200,6 @@ onMounted(() => {
     top: 0.75rem
     left: 0.75rem
     z-index: 0
-
     @media (min-width: 768px)
       font-size: 3rem
       top: 1rem
@@ -192,7 +208,6 @@ onMounted(() => {
 .trivia-card-icon
   font-size: 2.5rem
   margin-bottom: 0.5rem
-
   @media (min-width: 768px)
     font-size: 3rem
 
@@ -204,16 +219,26 @@ onMounted(() => {
   font-weight: 500
   line-height: 1.5
   text-wrap: balance
-
   @media (min-width: 768px)
     font-size: 1rem
+
+  sup
+    font-size: 0.65rem
+    margin-left: 0.25rem
+    color: $color-dark
+    vertical-align: top;
+    a
+      color: inherit
+      text-decoration: none
+      &:hover
+        color: $color-accent
+      &:focus-visible
+        outline: 2px solid $color-accent
+        outline-offset: 2px
 
 .trivia-card-shuffle-btn
   font-size: 1.25rem
   border-radius: 0.5rem
-  background-color: transparent
-  border: 0
-  cursor: pointer
   transition: all 0.2s ease-in-out
   display: flex
   align-items: center
@@ -223,7 +248,6 @@ onMounted(() => {
   width: 2rem
   height: 2rem
   border-radius: 50%
-
   @media (min-width: 768px)
     font-size: 1.5rem
     width: 2.5rem
@@ -234,15 +258,13 @@ onMounted(() => {
 
 .trivia-card-reactions
   display: flex
-  flex-direction: column
+  justify-content: center
+  align-items: center
+  flex-wrap: wrap
   gap: 0.4rem
   margin-top: 0.5rem
   width: 100%
-  align-items: center
-
   @media (min-width: 768px)
-    flex-direction: row
-    justify-content: center
     gap: 0.75rem
 
 .reaction-btn
@@ -251,13 +273,14 @@ onMounted(() => {
   color: $color-text
   border-radius: 1.5rem
   padding: 0.3rem 0.75rem
-  font-size: 0.825rem
-  cursor: pointer
+  font-size: 1rem
   transition: all 0.2s ease-in-out
   display: flex
   align-items: center
   justify-content: center
   gap: 0.25rem
+  @media (min-width: 768px)
+  font-size: 0.825rem
 
   &:not(.active):hover
     background-color: rgba($color-accent, 0.1)
@@ -277,7 +300,6 @@ onMounted(() => {
   gap: 0.5rem
   justify-content: center
   margin-bottom: 1rem
-
   @media (min-width: 768px)
     gap: 0.75rem
     margin-bottom: 1.5rem
@@ -287,12 +309,9 @@ onMounted(() => {
   font-size: 0.75rem
   font-weight: 500
   border-radius: 1rem
-  border: 0
   color: $color-text
   background-color: white
   transition: all 0.2s ease-in-out
-  cursor: pointer
-
   @media (min-width: 768px)
     padding: 0.5rem 1rem
     font-size: 0.825rem

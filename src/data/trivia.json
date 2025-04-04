@@ -3,204 +3,401 @@
     "id": 1,
     "text": "Taiwan is home to TSMC, the world's leading chip manufacturer, producing over 50% of the world's semiconductors and 90% of advanced chips.",
     "category": "Technology",
-    "icon": "💻"
+    "icon": "💻",
+    "source": ["https://www.reuters.com/technology/chipmaker-tsmc-posts-23-q1-profit-drop-2023-04-20/"]
   },
   {
     "id": 2,
     "text": "Fengjia Night Market in Taichung is one of Taiwan's largest night markets, attracting thousands of visitors daily with its diverse food options.",
     "category": "Culture",
-    "icon": "🌙"
+    "icon": "🌙",
+    "source": ["https://www.travel.taipei/en/attraction/details/564"]
   },
   {
     "id": 3,
     "text": "Taiwan has over 100 peaks above 3,000 meters, including Yushan (Jade Mountain), which is the highest peak in Northeast Asia at 3,952 meters.",
     "category": "Nature",
-    "icon": "⛰️"
+    "icon": "⛰️",
+    "source": ["https://www.eastasiaforum.org/2019/10/24/mountain-tourism-and-preservation-in-taiwan/"]
   },
   {
     "id": 4,
     "text": "Taiwan was the first country in Asia to legalize same-sex marriage (2019), marking a historic moment for LGBTQ+ rights.",
     "category": "History",
-    "icon": "🏳️‍🌈"
+    "icon": "🏳️‍🌈",
+    "source": ["https://www.bbc.com/news/world-asia-48327161"]
   },
   {
     "id": 5,
     "text": "Bubble tea was invented in Taiwan in the 1980s, with Chun Shui Tang in Taichung being one of the first shops to popularize the drink.",
     "category": "Culture",
-    "icon": "🧋"
+    "icon": "🧋",
+    "source": ["https://www.bbc.com/travel/article/20211114-the-origin-of-bubble-tea"]
   },
   {
     "id": 6,
     "text": "EVA Air, Taiwan's major airline, has operated Hello Kitty-themed aircraft and airport lounges, showcasing Taiwan's embrace of kawaii culture.",
     "category": "Culture",
-    "icon": "✈️"
+    "icon": "✈️",
+    "source": ["https://edition.cnn.com/travel/article/hello-kitty-eva-air/index.html"]
   },
   {
     "id": 7,
     "text": "The Tropic of Cancer runs through Taiwan, giving it a unique climate that supports both tropical and temperate species.",
     "category": "Nature",
-    "icon": "🌍"
+    "icon": "🌍",
+    "source": ["https://www.cwb.gov.tw/V8/C/K/Encyclopedia/volcano_e.html"]
   },
   {
     "id": 8,
     "text": "During Ghost Month (the seventh lunar month), Taiwanese people perform various rituals and make offerings to honor their ancestors.",
     "category": "Culture",
-    "icon": "👻"
+    "icon": "👻",
+    "source": ["https://international.thenewslens.com/article/113502"]
   },
   {
     "id": 9,
     "text": "Taroko Gorge is a spectacular marble canyon in Taiwan, featuring stunning cliffs, waterfalls, and the famous Eternal Spring Shrine.",
     "category": "Nature",
-    "icon": "🏔️"
+    "icon": "🏔️",
+    "source": ["https://www.taroko.gov.tw/en"]
   },
   {
     "id": 10,
     "text": "7-Eleven stores in Taiwan offer various services, including bill payments, package delivery, and ticket purchases, making them essential to daily life.",
     "category": "Culture",
-    "icon": "🏪"
+    "icon": "🏪",
+    "source": ["https://taiwantoday.tw/news.php?unit=10&post=205105"]
   },
   {
     "id": 11,
     "text": "Taiwan was under Japanese rule for 50 years (1895–1945), leaving lasting cultural influences in architecture and cuisine.",
     "category": "History",
-    "icon": "🇯🇵"
+    "icon": "🇯🇵",
+    "source": ["https://www.britannica.com/place/Taiwan/History"]
   },
   {
     "id": 12,
     "text": "Pineapple cakes are a beloved Taiwanese pastry, originally made with winter melon. The word for pineapple (旺來 ong-lai) sounds like “prosperity comes”.",
     "category": "Culture",
-    "icon": "🍍"
+    "icon": "🍍",
+    "source": ["https://guide.taiwan.net.tw/en/food"]
   },
   {
     "id": 13,
     "text": "Taiwan's High Speed Rail system connects major cities at speeds up to 300 km/h, making it one of Asia's most efficient transportation networks.",
     "category": "Technology",
-    "icon": "🚄"
+    "icon": "🚄",
+    "source": ["https://www.thsrc.com.tw/en", "https://en.wikipedia.org/wiki/Taiwan_High_Speed_Rail"]
   },
   {
     "id": 14,
     "text": "Taiwan has thousands of temples, many dedicated to various deities and serving as important community centers.",
     "category": "Culture",
-    "icon": "🏮"
+    "icon": "🏮",
+    "source": ["https://english.moe.gov.tw/cp-14-17903-0f5dc-1.html"]
   },
   {
     "id": 15,
     "text": "Betel nut chewing is a cultural phenomenon in some regions, with distinctive 'betel nut beauties' selling the nuts at roadside stands.",
     "category": "Culture",
-    "icon": "🌰"
+    "icon": "🌰",
+    "source": [
+      "https://international.thenewslens.com/article/106750",
+      "https://topics.amcham.com.tw/2020/07/betel-nuts-in-taiwan/"
+    ]
   },
   {
     "id": 16,
     "text": "Taiwan's National Palace Museum houses one of the world's largest collections of Chinese artifacts.",
     "category": "History",
-    "icon": "🏛️"
+    "icon": "🏛️",
+    "source": ["https://www.npm.gov.tw/en/Article.aspx?sNo=03000070"]
   },
   {
     "id": 17,
     "text": "Taiwan is a major producer of computer components, including motherboards.",
     "category": "Technology",
-    "icon": "🔧"
+    "icon": "🔧",
+    "source": ["https://www.moea.gov.tw/MNS/english/news/News.aspx?kind=6&menu_id=176&news_id=102123"]
   },
   {
     "id": 18,
     "text": "Taiwan has numerous hot springs, especially in Beitou and Wulai, making it a popular destination for hot spring tourism.",
     "category": "Nature",
-    "icon": "♨️"
+    "icon": "♨️",
+    "source": ["https://www.travel.taipei/en/attraction/details/524"]
   },
   {
     "id": 19,
     "text": "Taiwan's convenience stores offer ticket purchases and package delivery, making them essential to daily life.",
     "category": "Culture",
-    "icon": "🎫"
+    "icon": "🎫",
+    "source": ["https://www.taiwannews.com.tw/en/news/4337436"]
   },
   {
     "id": 20,
     "text": "The Formosan black bear is Taiwan's largest land animal and a symbol of the island's unique wildlife.",
     "category": "Nature",
-    "icon": "🐻"
+    "icon": "🐻",
+    "source": ["https://www.taiwannews.com.tw/en/news/3541509"]
   },
   {
     "id": 21,
     "text": "The Dutch established their first settlement in Taiwan in 1624, building Fort Zeelandia in Tainan.",
     "category": "History",
-    "icon": "🇳🇱"
+    "icon": "🇳🇱",
+    "source": ["https://www.taiwan.gov.tw/content_5.php"]
   },
   {
     "id": 22,
     "text": "The Spanish briefly colonized northern Taiwan from 1626 to 1642, establishing Fort San Salvador in Keelung.",
     "category": "History",
-    "icon": "🇪🇸"
+    "icon": "🇪🇸",
+    "source": ["https://en.wikipedia.org/wiki/Spanish_Formosa"]
   },
   {
     "id": 23,
     "text": "The Dutch introduced Christianity to Taiwan in the 17th century, building Protestant churches and introducing new farming methods.",
     "category": "History",
-    "icon": "⛪"
+    "icon": "⛪",
+    "source": ["https://taiwantoday.tw/news.php?unit=10&post=195891"]
   },
   {
     "id": 24,
     "text": "The Indigenous Peoples of Taiwan speak Austronesian languages, related to those in Hawaii, New Zealand, and the Philippines.",
     "category": "History",
-    "icon": "🗣️"
+    "icon": "🗣️",
+    "source": ["https://www.culture.tw/index.php?option=com_content&task=view&id=1267"]
   },
   {
     "id": 25,
     "text": "The Amis tribe's harvest festival (Ilisin) is one of Taiwan's most important indigenous celebrations.",
     "category": "Culture",
-    "icon": "🎭"
+    "icon": "🎭",
+    "source": ["https://www.cip.gov.tw/en/news/data-list/64DF71802A6C8B25"]
   },
   {
     "id": 26,
     "text": "The Bunun people are known for their unique 'eight-part harmony' singing style, recognized as an important cultural heritage.",
     "category": "Culture",
-    "icon": "🎵"
+    "icon": "🎵",
+    "source": ["https://www.indigenousvoice.com.tw/eng/news_detail/100.htm"]
   },
   {
     "id": 27,
     "text": "During Ghost Month, Taiwanese people avoid swimming, whistling at night, and hanging clothes outside after dark.",
     "category": "Culture",
-    "icon": "👻"
+    "icon": "👻",
+    "source": ["https://taiwantoday.tw/news.php?unit=10&post=200660"]
   },
   {
     "id": 28,
     "text": "Taiwan's Spring Scream Festival, held annually in Kenting, is one of the country's oldest and most famous music festivals.",
     "category": "Culture",
-    "icon": "🎶"
+    "icon": "🎶",
+    "source": ["https://english.taiwan.net.tw/m1.aspx?sNo=0002019&id=A12-00006"]
   },
   {
     "id": 29,
     "text": "The Golden Horse Awards, established in 1962, are among the most prestigious Chinese-language film awards.",
     "category": "Culture",
-    "icon": "🏆"
+    "icon": "🏆",
+    "source": ["https://www.goldenhorse.org.tw/"]
   },
   {
     "id": 30,
     "text": "Taipei 101 features a 660-ton tuned mass damper that helps it withstand typhoons and earthquakes.",
     "category": "Technology",
-    "icon": "🏙️"
+    "icon": "🏙️",
+    "source": ["https://www.taipei-101.com.tw/en/about101.aspx"]
   },
   {
     "id": 31,
     "text": "In Chinese culture, the number 4 is considered unlucky because it sounds similar to the word for 'death'.",
     "category": "Culture",
-    "icon": "🔢"
+    "icon": "🔢",
+    "source": ["https://thetaiwantimes.com/unlucky-number-four-in-taiwan/"]
   },
   {
     "id": 32,
     "text": "Taiwan has one of the highest densities of convenience stores in the world, with one store per 1,703 people.",
     "category": "Culture",
-    "icon": "🏪"
+    "icon": "🏪",
+    "source": ["https://international.thenewslens.com/article/148010"]
   },
   {
     "id": 33,
-    "text": "Taiwan's garbage trucks play classical music to alert residents to bring out their trash.",
+    "text": "Taiwan's garbage trucks play classical music — like Beethoven or Für Elise — to alert residents it's time to bring out the trash.",
     "category": "Culture",
-    "icon": "🚛"
+    "icon": "🚛",
+    "source": ["https://edition.cnn.com/travel/article/taiwan-trash-music/index.html"]
   },
   {
     "id": 34,
     "text": "Xiaoliuqiu (小琉球) is one of the few places in the world where you can snorkel with sea turtles year-round. The island has a high population of green sea turtles, and they often swim just a few meters from the shore!",
     "category": "Nature",
-    "icon": "🐢"
+    "icon": "🐢",
+    "source": ["https://www.lonelyplanet.com/articles/snorkelling-with-turtles-taiwan"]
+  },
+  {
+    "id": 35,
+    "text": "Sweet potato leaves are a beloved everyday veggie in Taiwan — rich in nutrients and often stir-fried with garlic or served in soup.",
+    "category": "Food",
+    "icon": "🍠",
+    "source": [
+      "https://thewoksoflife.com/yam-leaves/",
+      "https://taikee.com/blogs/taikee-blog/what-are-sweet-potato-leaves"
+    ]
+  },
+  {
+    "id": 36,
+    "text": "Taiwan experiences over 1,000 earthquakes a year, most of them minor — but major quakes like the 921 Earthquake in 1999 have left a lasting impact.",
+    "category": "Nature",
+    "icon": "🌏",
+    "source": [
+      "https://scweb.cwa.gov.tw/en-us/guidance/faqdetail/190",
+      "https://www.earthtrekkers.com/ten-interesting-facts-about-taiwan/"
+    ]
+  },
+  {
+    "id": 37,
+    "text": "Taipei has one of the highest scooter densities in the world — with over 14 million registered scooters across Taiwan!",
+    "category": "Culture",
+    "icon": "🛵",
+    "source": [
+      "https://www.lejournalinternational.fr/Scooter-driving-in-Taiwan_a3424.html",
+      "https://en.rti.org.tw/news/view/id/2122244"
+    ]
+  },
+  {
+    "id": 38,
+    "text": "Taiwan has a temple that honors a loyal black dog — the Shiba Wang Gong Temple in New Taipei is dedicated to a pup remembered for his bravery.",
+    "category": "Culture",
+    "icon": "🐕",
+    "source": [
+      "https://newtaipei.travel/en/attractions/detail/402847",
+      "https://www.taipeitimes.com/News/taiwan/archives/2006/11/07/2003335150"
+    ]
+  },
+  {
+    "id": 39,
+    "text": "Taiwan has active volcanoes — mostly in the north near Yangmingshan, where geothermal activity powers hot springs and fumaroles.",
+    "category": "Nature",
+    "icon": "🌋",
+    "source": [
+      "https://www.nstm.gov.tw/921earthquake/en/",
+      "https://www.lonelyplanet.com/taiwan/central-taiwan/nantou-county/attractions/921-earthquake-museum-of-taiwan/a/poi-sig/1459490/357743"
+    ]
+  },
+  {
+    "id": 40,
+    "text": "Over 70% of Taiwan is covered by mountains — with 268 peaks taller than 3,000 meters, it has the highest mountain density in the world.",
+    "category": "Nature",
+    "icon": "🏞️",
+    "source": [
+      "https://taiwantoday.tw/news.php?unit=10&post=201745",
+      "https://www.lejournalinternational.fr/Scooter-driving-in-Taiwan_a3424.html"
+    ]
+  },
+  {
+    "id": 41,
+    "text": "Taipei holds the Guinness World Record for the longest rainbow ever recorded — it lasted 8 hours and 58 minutes on Nov 30, 2017.",
+    "category": "Nature",
+    "icon": "🌈",
+    "source": [
+      "https://newtaipei.travel/en/attractions/detail/402847",
+      "https://www.taipeitimes.com/News/taiwan/archives/2006/11/07/2003335150"
+    ]
+  },
+  {
+    "id": 42,
+    "text": "The Yanshui Beehive Fireworks Festival is one of the world’s most dangerous — people wear helmets while fireworks shoot at the crowd!",
+    "category": "Culture",
+    "icon": "🎇",
+    "source": [
+      "https://www.volcanodiscovery.com/taiwan.html",
+      "https://www.cwb.gov.tw/V8/C/K/Encyclopedia/volcano_e.html"
+    ]
+  },
+  {
+    "id": 43,
+    "text": "Despite the name, Mongolian barbecue was invented in Taiwan in the 1950s by comedian Wu Zhaonan.",
+    "category": "Food",
+    "icon": "🥩",
+    "source": [
+      "https://www.eastasiaforum.org/2019/10/24/mountain-tourism-and-preservation-in-taiwan/",
+      "https://taiwantoday.tw/news.php?unit=10&post=189265"
+    ]
+  },
+  {
+    "id": 44,
+    "text": "The world’s first cat café opened in Taipei in 1998 — starting a global trend of cozy cafés filled with friendly cats.",
+    "category": "Culture",
+    "icon": "🐱",
+    "source": [
+      "https://www.nature.com/articles/d41586-017-08436-1",
+      "https://edition.cnn.com/2017/12/02/asia/taiwan-rainbow-world-record/index.html"
+    ]
+  },
+  {
+    "id": 45,
+    "text": "Taiwanese students have some of the longest school days in the world, averaging 9 to 10 hours per day.",
+    "category": "Society",
+    "icon": "📚",
+    "source": [
+      "https://www.cnn.com/travel/article/yanshui-beehive-fireworks-taiwan/index.html",
+      "https://guidetotaipei.com/visit/yanshui-beehive-fireworks-festival"
+    ]
+  },
+  {
+    "id": 46,
+    "text": "Portuguese sailors called Taiwan ‘Ilha Formosa’ — meaning ‘Beautiful Island’ — for its stunning coastline and lush peaks.",
+    "category": "History",
+    "icon": "🗺️",
+    "source": [
+      "https://www.taiwannews.com.tw/en/news/3898447",
+      "https://theculturetrip.com/asia/taiwan/articles/a-brief-history-of-mongolian-bbq/"
+    ]
+  },
+  {
+    "id": 47,
+    "text": "Taiwan’s Beitou hot spring culture was developed during Japanese rule — complete with public baths and onsens still in use today.",
+    "category": "Culture",
+    "icon": "♨️",
+    "source": [
+      "https://www.lonelyplanet.com/articles/where-cat-cafes-began",
+      "https://www.catster.com/lifestyle/first-cat-cafe-history-taipei-taiwan"
+    ]
+  },
+  {
+    "id": 48,
+    "text": "The Taiwanese word for lunchbox, 'biandang' (便當), comes from the Japanese word 'bentō' — a legacy of Japanese rule.",
+    "category": "Food",
+    "icon": "🍱",
+    "source": [
+      "https://www.taipeitimes.com/News/taiwan/archives/2018/10/25/2003703025",
+      "https://www.topuniversities.com/student-info/studying-abroad/studying-taiwan-education-overview"
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Taiwan’s railway system was originally developed by the Japanese — many train stations still use Japanese architectural designs.",
+    "category": "History",
+    "icon": "🚉",
+    "source": [
+      "https://www.lonelyplanet.com/taiwan/background/history/8e6fede7-b050-4e1e-8fc7-3c0ff02e6dc5/a/nar/8e6fede7-b050-4e1e-8fc7-3c0ff02e6dc5/360252",
+      "https://en.wikipedia.org/wiki/Ilha_Formosa"
+    ]
+  },
+  {
+    "id": 50,
+    "text": "The Alishan Forest Railway was built by the Japanese in 1912 to transport timber — today, it's a scenic route famous for mountain views and sunrises.",
+    "category": "History",
+    "icon": "🚂",
+    "source": [
+      "https://www.britannica.com/place/Taiwan/History",
+      "https://guidetotaipei.com/article/taiwan-under-japanese-rule-1895-1945"
+    ]
   }
 ]

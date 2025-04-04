@@ -7,9 +7,7 @@ import TriviaCard from "./components/TriviaCard.vue";
     <h1>Trivia Taiwan</h1>
     <TriviaCard />
 
-    <footer class="footer">
-      Made with ❤️ by a <a href="https://estherj-hsu.github.io/">Taiwanese</a>
-    </footer>
+    <footer class="footer">Made with ❤️ by a <a href="https://estherj-hsu.github.io/">Taiwanese</a></footer>
   </div>
 </template>
 
@@ -22,7 +20,6 @@ import TriviaCard from "./components/TriviaCard.vue";
   align-items: center
   justify-content: center
   padding: 0 0.5rem
-  background-color: $color-bg
   color: $color-text
   gap: 1rem
 
@@ -31,7 +28,7 @@ import TriviaCard from "./components/TriviaCard.vue";
     gap: 1.5rem
 
 h1
-  font-family: "DynaPuff", cursive
+  font-family: "DynaPuff", sans-serif
   font-weight: bold
   font-size: 3em
   display: flex
@@ -51,6 +48,10 @@ h1
     text-decoration: none
     font-weight: 500
     transition: all 0.2s ease-in-out
+
+    &:focus-visible
+      outline: 2px solid $color-accent
+      outline-offset: 2px
 
     &:hover
       text-decoration: underline
