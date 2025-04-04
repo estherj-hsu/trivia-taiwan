@@ -2,7 +2,7 @@
   {
     "id": 1,
     "text": "Taiwan is home to TSMC, the world's leading chip manufacturer, producing over 50% of the world's semiconductors and 90% of advanced chips.",
-    "category": "Technology",
+    "category": "Tech",
     "icon": "💻",
     "source": ["https://www.reuters.com/technology/chipmaker-tsmc-posts-23-q1-profit-drop-2023-04-20/"]
   },
@@ -86,7 +86,7 @@
   {
     "id": 13,
     "text": "Taiwan's High Speed Rail system connects major cities at speeds up to 300 km/h, making it one of Asia's most efficient transportation networks.",
-    "category": "Technology",
+    "category": "Tech",
     "icon": "🚄",
     "source": ["https://www.thsrc.com.tw/en", "https://en.wikipedia.org/wiki/Taiwan_High_Speed_Rail"]
   },
@@ -117,7 +117,7 @@
   {
     "id": 17,
     "text": "Taiwan is a major producer of computer components, including motherboards.",
-    "category": "Technology",
+    "category": "Tech",
     "icon": "🔧",
     "source": ["https://www.moea.gov.tw/MNS/english/news/News.aspx?kind=6&menu_id=176&news_id=102123"]
   },
@@ -208,7 +208,7 @@
   {
     "id": 30,
     "text": "Taipei 101 features a 660-ton tuned mass damper that helps it withstand typhoons and earthquakes.",
-    "category": "Technology",
+    "category": "Tech",
     "icon": "🏙️",
     "source": ["https://www.taipei-101.com.tw/en/about101.aspx"]
   },
@@ -243,7 +243,7 @@
   {
     "id": 35,
     "text": "Sweet potato leaves are a beloved everyday veggie in Taiwan — rich in nutrients and often stir-fried with garlic or served in soup.",
-    "category": "Food",
+    "category": "Culture",
     "icon": "🍠",
     "source": [
       "https://thewoksoflife.com/yam-leaves/",
@@ -323,7 +323,7 @@
   {
     "id": 43,
     "text": "Despite the name, Mongolian barbecue was invented in Taiwan in the 1950s by comedian Wu Zhaonan.",
-    "category": "Food",
+    "category": "Culture",
     "icon": "🥩",
     "source": [
       "https://www.eastasiaforum.org/2019/10/24/mountain-tourism-and-preservation-in-taiwan/",
@@ -373,7 +373,7 @@
   {
     "id": 48,
     "text": "The Taiwanese word for lunchbox, 'biandang' (便當), comes from the Japanese word 'bentō' — a legacy of Japanese rule.",
-    "category": "Food",
+    "category": "Culture",
     "icon": "🍱",
     "source": [
       "https://www.taipeitimes.com/News/taiwan/archives/2018/10/25/2003703025",
