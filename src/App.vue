@@ -1,12 +1,9 @@
-<script setup lang="ts">
-import TriviaCard from "./components/TriviaCard.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="container">
     <h1>Trivia Taiwan</h1>
-    <TriviaCard />
-
+    <router-view />
     <footer class="footer">Made with ❤️ by a <a href="https://estherj-hsu.github.io/">Taiwanese</a></footer>
   </div>
 </template>

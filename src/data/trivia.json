@@ -292,6 +292,7 @@
     "text": "Taiwan's garbage trucks play classical music — like Beethoven or Für Elise — to alert residents it's time to bring out the trash.",
     "category": "Culture",
     "icon": "🚛",
+    "featured": true,
     "source": [
       "https://www.moc.gov.tw/en/News_Content2.aspx?n=467&s=14287",
       "https://youtu.be/8YOtFyaoqhE?feature=shared"
@@ -321,6 +322,7 @@
     "id": 36,
     "text": "Taiwan experiences over 1,000 earthquakes a year, most of them minor — but major quakes like the 921 Earthquake in 1999 have left a lasting impact.",
     "category": "Nature",
+    "featured": true,
     "icon": "🌏",
     "source": ["https://scweb.cwa.gov.tw/en-us/guidance/faqdetail/190", "https://www.cwa.gov.tw/V8/E/E/index.html"]
   },
@@ -369,6 +371,7 @@
     "id": 41,
     "text": "Taipei holds the Guinness World Record for the longest rainbow ever recorded — it lasted 8 hours and 58 minutes on Nov 30, 2017.",
     "category": "Nature",
+    "featured": true,
     "icon": "🌈",
     "source": [
       "https://www.guinnessworldrecords.com/world-records/66553-longest-lasting-rainbow",
@@ -379,6 +382,7 @@
     "id": 42,
     "text": "The Yanshui Beehive Fireworks Festival is one of the world’s most dangerous — people wear helmets while fireworks shoot at the crowd!",
     "category": "Culture",
+    "featured": true,
     "icon": "🎇",
     "source": [
       "https://www.rtaiwanr.com/blog/yanshui-beehive-fireworks",

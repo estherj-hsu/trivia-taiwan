@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted } from "vue";
+import { useRoute, useRouter } from "vue-router";
 import { supabase } from "../utils/supabase";
 import triviaData from "../data/trivia.json";
 
@@ -14,11 +15,14 @@ interface TriviaItem {
   text: string;
   category: string;
   icon: string;
+  featured?: boolean;
   reactionCounts?: ReactionCounts;
   source?: string[];
 }
 
 const data = ref<TriviaItem[]>(triviaData);
+const route = useRoute();
+const router = useRouter();
 
 const categories = computed(() => {
   const all = data.value.map((item) => item.category);
@@ -36,6 +40,17 @@ const currentTrivia = computed(() => {
   return filteredTrivia.value[currentIndex.value % filteredTrivia.value.length];
 });
 
+const featuredTrivia = computed(() => {
+  return data.value.find((item) => item.featured) || data.value[0];
+});
+
+onMounted(() => {
+  selectedCategory.value = featuredTrivia.value.category;
+  const matching = data.value.filter((item) => item.category === featuredTrivia.value.category);
+  currentIndex.value = matching.findIndex((item) => item.id === featuredTrivia.value.id);
+  initReactions(featuredTrivia.value.id);
+});
+
 function getRandomIndex(max: number): number {
   return Math.floor(Math.random() * max);
 }
@@ -45,16 +60,43 @@ function selectCategory(cat: string) {
   const filteredLength = filteredTrivia.value.length;
   currentIndex.value = getRandomIndex(filteredLength);
   userReaction.value = null;
+  updateUrl();
 }
 
 function shuffleCurrentCategory() {
   const fullList = data.value;
-  const randomItem = fullList[getRandomIndex(fullList.length)];
+  const currentId = currentTrivia.value?.id;
+
+  const candidates = fullList.filter((item) => item.id !== currentId);
+
+  const randomItem = candidates[getRandomIndex(candidates.length)];
 
   selectedCategory.value = randomItem.category;
   const matching = data.value.filter((item) => item.category === randomItem.category);
   currentIndex.value = matching.findIndex((item) => item.id === randomItem.id);
+
   userReaction.value = null;
+  updateUrl();
+}
+
+function updateUrl() {
+  router.replace({ path: `/${currentTrivia.value.id}` });
+}
+
+function loadFromUrl() {
+  const idParam = Number(route.params.id);
+  if (!isNaN(idParam)) {
+    const match = data.value.find((item) => item.id === idParam);
+    if (match) {
+      selectedCategory.value = match.category;
+      const index = data.value
+        .filter((item) => item.category === match.category)
+        .findIndex((item) => item.id === idParam);
+      if (index !== -1) {
+        currentIndex.value = index;
+      }
+    }
+  }
 }
 
 const reactions = ["knew", "didntKnow", "interesting"] as const;
@@ -110,6 +152,7 @@ watch(currentTrivia, (newVal) => {
 });
 
 onMounted(() => {
+  loadFromUrl();
   if (currentTrivia.value) initReactions(currentTrivia.value.id);
 });
 </script>
@@ -223,10 +266,13 @@ button
     font-size: 1rem
 
   sup
-    font-size: 0.65rem
+    font-size: 0.675rem
     margin-left: 0.25rem
     color: $color-dark
     vertical-align: top;
+    transition: all 0.2s ease-in-out
+    &:hover
+      font-size: 0.825rem
     a
       color: inherit
       text-decoration: none
@@ -248,6 +294,9 @@ button
   width: 2rem
   height: 2rem
   border-radius: 50%
+  animation: shuffle-animation 5s ease-in-out infinite
+  animation-delay: 5s
+  animation-iteration-count: infinite
   @media (min-width: 768px)
     font-size: 1.5rem
     width: 2.5rem
@@ -255,6 +304,21 @@ button
 
   &:hover
     background-color: rgba($color-accent, 0.1)
+
+@keyframes shuffle-animation
+  0%
+    opacity: 1
+  45%
+    opacity: 1
+    transform: scale(1)
+  50%
+    opacity: 0.6
+    transform: scale(1.2)
+  55%
+    opacity: 1
+    transform: scale(1)
+  100%
+    opacity: 1
 
 .trivia-card-reactions
   display: flex
