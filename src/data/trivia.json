@@ -268,10 +268,7 @@
     "text": "Taipei 101 features a 660-ton tuned mass damper that helps it withstand typhoons and earthquakes.",
     "category": "Tech",
     "icon": "🏙️",
-    "source": [
-      "https://www.atlasobscura.com/places/tuned-mass-damper-of-taipei-101",
-      "https://global.ctbuh.org/resources/papers/download/1650-structural-design-of-taipei-101-the-worlds-tallest-building.pdf"
-    ]
+    "source": ["https://www.atlasobscura.com/places/tuned-mass-damper-of-taipei-101", "https://youtu.be/CSyJBh8BB44"]
   },
   {
     "id": 31,
@@ -465,6 +462,37 @@
     "icon": "🚂",
     "source": [
       "https://taiwaninsight.org/2025/03/10/tracks-of-influence-how-taiwans-railway-heritage-fuels-soft-power/"
+    ]
+  },
+  {
+    "id": 51,
+    "text": "In Taiwan, breakfast is a daily ritual — from soy milk & egg crepes to radish cake & fan tuan, local breakfast shops open before sunrise and are often more loved than Starbucks.",
+    "category": "Culture",
+    "icon": "🍳",
+    "source": [
+      "https://www.justaiwantour.com/blog/?p=310",
+      "https://www.comunicaffe.com/taiwan-starbucks-upbeat-on-growth/"
+    ]
+  },
+  {
+    "id": 52,
+    "text": "Taiwan has over 20,000 bubble tea shops — more than there are convenience stores. Some intersections have 3 boba shops side-by-side. That’s how much people love it.",
+    "category": "Food",
+    "icon": "🧋",
+    "source": [
+      "https://store.yenchuan.co/blog/how-popular-is-bubble-tea-anyways/",
+      "https://www.bubbleteaology.com/best-bubble-tea-shops-taiwan/"
+    ]
+  },
+  {
+    "id": 53,
+    "text": "Taiwan is the only place that still uses Zhuyin Fuhao (注音符號) — a phonetic system taught in schools to help kids learn Mandarin. Unlike in China, pinyin isn’t used in daily life here — Zhuyin is how we read, type, and pronounce.",
+    "category": "Culture",
+    "icon": "🔠",
+    "source": [
+      "https://en.wikipedia.org/wiki/Taiwanese_Mandarin",
+      "https://en.wikipedia.org/wiki/Languages_of_Taiwan",
+      "https://studycli.org/learn-chinese/bopomofo/"
     ]
   }
 ]
