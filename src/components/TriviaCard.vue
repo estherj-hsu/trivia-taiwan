@@ -158,9 +158,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="trivia-card" :data-id="currentTrivia.id">
+  <div class="trivia-card" :data-id="currentTrivia.id" role="main" aria-labelledby="trivia-text">
     <div class="trivia-card-icon" aria-hidden="true">{{ currentTrivia.icon }}</div>
-    <div class="trivia-card-text" id="trivia-text">
+    <div class="trivia-card-text" id="trivia-text" aria-live="polite">
       <p>
         {{ currentTrivia.text }}
         <template v-if="currentTrivia.source && currentTrivia.source.length">
